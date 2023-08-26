@@ -1,0 +1,39 @@
+
+  
+        .dropdown-btn {
+            display: block;
+            background-color: rgb(26, 26, 77);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: left;
+            width: 100%;
+        }
+
+        .dropdown-menu {
+            display: none;
+            background-color: rgb(26, 26, 77);
+            position: absolute;
+            top: 80px;
+            left: 0;
+            width: 100%;
+        }
+
+        .dropdown-btn.show + .dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-menu li {
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .dropdown-menu a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+    
